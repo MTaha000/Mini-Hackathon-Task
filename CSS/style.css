@@ -7,8 +7,9 @@
 
 :root {
     --primary-text: aliceblue;
-    --bg-dark: rgb(28, 28, 32);
+    --bg-dark: rgb(16, 16, 19);
     --secondary-text: rgb(130, 141, 151);
+    --dark-text: rgb(35, 36, 39);
 }
 
 a {
@@ -105,10 +106,11 @@ main {
 .first-section-box i {
     font-size: 8px;
 }
+
 /* First Section End  */
 
 /* Second Section Start  */
-.second-section{
+.second-section {
     display: flex;
     justify-content: center;
     padding: 60px;
@@ -119,86 +121,159 @@ main {
     background-repeat: no-repeat;
 }
 
-.second-section-box{
+.second-section-box {
     width: 55%;
     text-align: center;
 }
-.second-section-box h2{
+
+.second-section-box h2 {
     color: var(--primary-text);
-    font-weight:200 ;
+    font-weight: 200;
     word-spacing: 15px;
     font-size: 25px;
     font-family: 'Courier New', Courier, monospace;
     margin-bottom: 10px;
 }
-.second-section-box h2 span{
+
+.second-section-box h2 span {
     margin-right: 15px;
     color: blue;
 }
-.second-section-box p{
+
+.second-section-box p {
     font-family: 'Courier New', Courier, monospace;
     color: var(--primary-text);
     font-size: 18px;
     margin-bottom: 30px;
 }
-.display-box{
+
+.display-box {
     background-color: black;
     height: 450px;
 }
-.display-head{
+
+.display-head {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 50px;
     padding: 0 20px;
 }
-.dh-left i{
+
+.dh-left i {
     font-size: 15px;
     color: rgb(59, 59, 59);
 }
-.dh-right i{
-   font-size: 25px;
-   color: white;
+
+.dh-right i {
+    font-size: 25px;
+    color: rgb(160, 159, 159);
 }
-.display-body{
+
+.display-body {
     text-align: start;
     padding: 10px 20px;
 }
-.display-body p{
+
+.display-body p {
     margin: 5px;
     padding: 0;
     font-size: 17px;
 }
-.display-body .main-content{
+
+.display-body .main-content {
     margin-left: 10px;
     padding: 20px 10px;
 }
-.display-body .main-content>span{
+
+.display-body .main-content>span {
     background-color: blueviolet;
     color: var(--primary-text);
     padding: 5px;
     font-weight: 900;
 }
-.display-body .first-content{
+
+.display-body .first-content {
     margin-top: 30px;
 }
-.display-body .first-content span{
+
+.display-body .first-content span {
     color: red;
     background-color: rgb(92, 91, 91);
     padding: 2px 5px;
 }
-.display-body .second-content{
+
+.display-body .second-content {
     margin-top: 30px;
 }
-.display-body .second-content p{
+
+.display-body .second-content p {
     color: var(--secondary-text);
 }
-.display-body .second-content span{
+
+.display-body .second-content span {
     color: #db61a2;
 }
-.second-section-box a{
+
+.second-section-box a {
     font-size: 22px;
     font-family: "Russo One", sans-serif;
     font-weight: 500;
     font-style: normal;
+}
+
+/* Second Section End  */
+
+/* Third Section Start  */
+
+.third-section {
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+}
+
+.third-section-box {
+    width: 65%;
+}
+
+.third-section h1 {
+    font-size: 4rem;
+    font-family: "Russo One", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: var(--dark-text);
+    width: 80%;
+    margin-bottom: 40px;
+}
+
+.ts-cards {
+    display: flex;
+}
+
+.ts-card {
+    margin-right: 20px;
+}
+
+.ts-card h3 {
+    font-size: 22px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--dark-text);
+}
+
+.ts-card p {
+    font-size: 15px;
+    color: var(--secondary-text);
+    margin-bottom: 15px;
+}
+
+.ts-card a {
+    color: rgb(57, 113, 158);
+    font-size: 15px;
+}
+.ts-card i{
+    font-size: 10px;
 }
