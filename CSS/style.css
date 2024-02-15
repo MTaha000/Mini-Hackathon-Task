@@ -40,11 +40,6 @@ header {
 
 }
 
-header a {
-    text-decoration: none;
-    color: var(--primary-text);
-}
-
 .links a {
     margin-right: 30px;
 }
@@ -256,7 +251,6 @@ main {
 
 .ts-card h3 {
     font-size: 22px;
-    font-weight: bolder;
     margin-bottom: 10px;
     font-family: "Russo One", sans-serif;
     font-weight: 400;
@@ -276,4 +270,57 @@ main {
 }
 .ts-card i{
     font-size: 10px;
+}
+/* Third Section End  */
+
+/* Fourth Section Start  */
+
+.fourth-section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+}
+.fourth-section-box{
+    padding: 50px 40px;
+    background-color: white;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(224, 228, 230);
+    margin: 20px 0;
+    z-index: 1;
+}
+.fourth-section-box h3{
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--dark-text);
+}
+.fourth-section-box p{
+    color: var(--secondary-text);
+    margin-bottom: 15px;
+}
+.fs-btn button{
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: none;
+    margin-bottom: 25px;
+}
+.fs-btn button a{
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+}
+.fourth-section-box a{
+    color: rgb(57, 113, 158);
+    font-size: 15px;
+}
+.fourth-section-img-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
 }
