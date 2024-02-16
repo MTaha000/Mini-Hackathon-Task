@@ -17,6 +17,27 @@ a {
     color: var(--primary-text);
 }
 
+/* Animation Classes Used in JavaScript Start */
+.d0 {
+    visibility: hidden;
+}
+
+.visible {
+    visibility: visible;
+}
+
+.d1,
+.d2,
+.d3 {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+/* Animation Classes Used in JavaScript End */
+
 /* Header Section Start  */
 header {
     width: 100vw;
@@ -145,6 +166,7 @@ main {
 .display-box {
     background-color: black;
     height: 450px;
+    margin-bottom: 40px;
 }
 
 .display-head {
