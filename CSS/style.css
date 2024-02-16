@@ -109,7 +109,7 @@ main {
     display: flex;
     justify-content: center;
     padding: 60px;
-    background-color: black;
+    background-color: var(--bg-dark);
     background-image: url(../Images/light-glow.svg);
     background-position: center;
     background-size: 100%;
@@ -414,9 +414,10 @@ footer {
     color: var(--secondary-text);
 }
 
-.footer-right i{
+.footer-right i {
     color: rgb(99, 99, 99);
     margin: 0 7px;
     font-size: 22px;
 }
+
 /* Footer End  */
