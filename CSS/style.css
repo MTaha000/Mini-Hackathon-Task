@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    overflow-x: hidden;
 }
 
 :root {
@@ -50,6 +51,7 @@ header {
 /* Main Section Start  */
 
 main {
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -281,6 +283,7 @@ main {
 
 .fourth-section {
     position: relative;
+    width: 100vw;
     display: flex;
     justify-content: center;
     padding: 50px 20px;
@@ -326,6 +329,7 @@ main {
     color: rgb(57, 113, 158);
     font-size: 15px;
 }
+
 
 .fourth-section-img-box {
     position: absolute;
