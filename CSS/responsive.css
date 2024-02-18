@@ -1,4 +1,7 @@
 @media(max-width:1300px) {
+    .first-section-box {
+        width: 75%;
+    }
     .second-section-box {
         width: 80%;
     }
@@ -21,9 +24,6 @@
 }
 
 @media(max-width:960px) {
-    .first-section-box {
-        width: 75%;
-    }
 
     .first-section-box h1 {
         font-size: 3.5rem;
@@ -56,7 +56,7 @@
 
 @media(max-width:770px) {
     .first-section-box {
-        width: 100%;
+        width: 85%;
         padding-bottom: 50px;
     }
 
