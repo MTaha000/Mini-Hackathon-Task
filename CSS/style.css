@@ -17,26 +17,6 @@ a {
     color: var(--primary-text);
 }
 
-/* Animation Classes Used in JavaScript Start */
-.d0 {
-    visibility: hidden;
-}
-
-.visible {
-    visibility: visible;
-}
-
-.d1,
-.d2,
-.d3 {
-    display: none;
-}
-
-.show {
-    display: block;
-}
-
-/* Animation Classes Used in JavaScript End */
 
 /* Header Section Start  */
 header {
@@ -143,7 +123,7 @@ main {
 }
 
 .second-section-box h2 {
-    color: var(--primary-text);
+    color: blue;
     font-weight: 200;
     word-spacing: 15px;
     font-size: 25px;
@@ -152,8 +132,8 @@ main {
 }
 
 .second-section-box h2 span {
-    margin-right: 15px;
-    color: blue;
+    margin-left: 15px;
+    color: var(--primary-text);
 }
 
 .second-section-box p {
